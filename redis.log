@@ -1,0 +1,146 @@
+2022-07-02 14:28:47.945  INFO 12160 --- [main] c.e.rediscache.RedisCacheApplication     : Starting RedisCacheApplication using Java 17.0.1 on HP with PID 12160 (D:\PDP Java\Modul 7\redis-cache\target\classes started by HP in D:\PDP Java\Modul 7\redis-cache)
+2022-07-02 14:28:47.957  INFO 12160 --- [main] c.e.rediscache.RedisCacheApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:28:48.514  INFO 12160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:28:48.550  INFO 12160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:28:49.005  INFO 12160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-07-02 14:28:49.017  INFO 12160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:28:49.018  INFO 12160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-02 14:28:49.171  INFO 12160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:28:49.171  INFO 12160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2022-07-02 14:28:49.221  WARN 12160 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: 'entityManagerFactory' depends on missing bean 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cacheManager' available
+2022-07-02 14:28:49.225  INFO 12160 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-02 14:28:49.248  INFO 12160 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-02 14:28:49.264 ERROR 12160 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'cacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cacheManager' in your configuration.
+
+2022-07-02 14:29:19.316  INFO 9668 --- [main] c.e.rediscache.RedisCacheApplication     : Starting RedisCacheApplication using Java 17.0.1 on HP with PID 9668 (D:\PDP Java\Modul 7\redis-cache\target\classes started by HP in D:\PDP Java\Modul 7\redis-cache)
+2022-07-02 14:29:19.323  INFO 9668 --- [main] c.e.rediscache.RedisCacheApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:29:19.796  INFO 9668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:29:19.823  INFO 9668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:29:20.143  INFO 9668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-07-02 14:29:20.149  INFO 9668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:29:20.150  INFO 9668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-02 14:29:20.263  INFO 9668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:29:20.263  INFO 9668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2022-07-02 14:29:20.289  WARN 9668 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: 'entityManagerFactory' depends on missing bean 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cacheManager' available
+2022-07-02 14:29:20.291  INFO 9668 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-02 14:29:20.303  INFO 9668 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-02 14:29:20.314 ERROR 9668 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'cacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cacheManager' in your configuration.
+
+2022-07-02 14:30:27.678  INFO 3356 --- [main] c.e.rediscache.RedisCacheApplication     : Starting RedisCacheApplication using Java 17.0.1 on HP with PID 3356 (D:\PDP Java\Modul 7\redis-cache\target\classes started by HP in D:\PDP Java\Modul 7\redis-cache)
+2022-07-02 14:30:27.681  INFO 3356 --- [main] c.e.rediscache.RedisCacheApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:30:28.223  INFO 3356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:30:28.263  INFO 3356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:30:28.614  INFO 3356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-07-02 14:30:28.619  INFO 3356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:30:28.620  INFO 3356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-02 14:30:28.742  INFO 3356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:30:28.743  INFO 3356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2022-07-02 14:30:28.873  INFO 3356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 14:30:28.924  INFO 3356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-02 14:30:29.047  INFO 3356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 14:30:29.120  INFO 3356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 14:30:29.315  INFO 3356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 14:30:29.340  INFO 3356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-02 14:30:29.813  WARN 3356 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2022-07-02 14:30:29.814  WARN 3356 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : последовательность "seq_user" не существует, пропускается
+2022-07-02 14:30:29.862  INFO 3356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 14:30:29.872  INFO 3356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:30:30.120  WARN 3356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 14:30:30.382  INFO 3356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-07-02 14:30:30.392  INFO 3356 --- [main] c.e.rediscache.RedisCacheApplication     : Started RedisCacheApplication in 3.037 seconds (JVM running for 3.636)
+2022-07-02 14:30:30.486  INFO 3356 --- [main] ication$$EnhancerBySpringCGLIB$$f13c6d82 : Saving users. Current user count is 0.
+2022-07-02 14:30:30.536  INFO 3356 --- [main] ication$$EnhancerBySpringCGLIB$$f13c6d82 : Done saving users. Data: [User(id=1, name=User1, followers=2000), User(id=2, name=User2, followers=29000), User(id=3, name=User3, followers=550)].
+2022-07-02 14:31:02.371  INFO 3356 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 14:31:02.372  INFO 3356 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 14:31:02.374  INFO 3356 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-02 14:31:47.999  INFO 3356 --- [http-nio-80-exec-4] c.e.r.controller.UserController          : GET ALL {} 
+2022-07-02 14:31:51.823  INFO 3356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:31:51.824  INFO 3356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-02 14:31:51.827  INFO 3356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-02 14:31:57.049  INFO 3912 --- [main] c.e.rediscache.RedisCacheApplication     : Starting RedisCacheApplication using Java 17.0.1 on HP with PID 3912 (D:\PDP Java\Modul 7\redis-cache\target\classes started by HP in D:\PDP Java\Modul 7\redis-cache)
+2022-07-02 14:31:57.056  INFO 3912 --- [main] c.e.rediscache.RedisCacheApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:31:57.601  INFO 3912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:31:57.637  INFO 3912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:31:57.982  INFO 3912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-07-02 14:31:57.990  INFO 3912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:31:57.990  INFO 3912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-02 14:31:58.131  INFO 3912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:31:58.131  INFO 3912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1028 ms
+2022-07-02 14:31:58.268  INFO 3912 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 14:31:58.295  INFO 3912 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-02 14:31:58.360  INFO 3912 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 14:31:58.410  INFO 3912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 14:31:58.537  INFO 3912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 14:31:58.549  INFO 3912 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-02 14:31:58.883  INFO 3912 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 14:31:58.891  INFO 3912 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:31:59.165  WARN 3912 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 14:31:59.438  INFO 3912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-07-02 14:31:59.448  INFO 3912 --- [main] c.e.rediscache.RedisCacheApplication     : Started RedisCacheApplication in 2.709 seconds (JVM running for 3.301)
+2022-07-02 14:31:59.507  INFO 3912 --- [main] ication$$EnhancerBySpringCGLIB$$cc4b34f3 : Saving users. Current user count is 0.
+2022-07-02 14:31:59.552  INFO 3912 --- [main] ication$$EnhancerBySpringCGLIB$$cc4b34f3 : Done saving users. Data: [User(id=1, name=User1, followers=2000), User(id=2, name=User2, followers=29000), User(id=3, name=User3, followers=550)].
+2022-07-02 14:32:02.274  INFO 3912 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 14:32:02.274  INFO 3912 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 14:32:02.276  INFO 3912 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 14:32:02.298  INFO 3912 --- [http-nio-80-exec-1] c.e.r.controller.UserController          : GET ALL {} 
+2022-07-02 14:32:07.188  INFO 3912 --- [http-nio-80-exec-2] c.e.r.controller.UserController          : GET ALL {} 
+2022-07-02 14:32:40.936  INFO 3912 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:32:40.938  INFO 3912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-02 14:32:40.943  INFO 3912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-02 14:32:46.208  INFO 10004 --- [main] c.e.rediscache.RedisCacheApplication     : Starting RedisCacheApplication using Java 17.0.1 on HP with PID 10004 (D:\PDP Java\Modul 7\redis-cache\target\classes started by HP in D:\PDP Java\Modul 7\redis-cache)
+2022-07-02 14:32:46.211  INFO 10004 --- [main] c.e.rediscache.RedisCacheApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 14:32:46.817  INFO 10004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 14:32:46.852  INFO 10004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-07-02 14:32:47.173  INFO 10004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-07-02 14:32:47.178  INFO 10004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 14:32:47.178  INFO 10004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-02 14:32:47.290  INFO 10004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 14:32:47.291  INFO 10004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2022-07-02 14:32:47.417  INFO 10004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 14:32:47.442  INFO 10004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-02 14:32:47.516  INFO 10004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 14:32:47.569  INFO 10004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 14:32:47.681  INFO 10004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 14:32:47.693  INFO 10004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-02 14:32:48.032  INFO 10004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 14:32:48.038  INFO 10004 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 14:32:48.329  WARN 10004 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 14:32:48.665  INFO 10004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-07-02 14:32:48.675  INFO 10004 --- [main] c.e.rediscache.RedisCacheApplication     : Started RedisCacheApplication in 2.78 seconds (JVM running for 3.39)
+2022-07-02 14:32:48.744  INFO 10004 --- [main] ication$$EnhancerBySpringCGLIB$$c39a34e3 : Saving users. Current user count is 0.
+2022-07-02 14:32:48.784  INFO 10004 --- [main] ication$$EnhancerBySpringCGLIB$$c39a34e3 : Done saving users. Data: [User(id=1, name=User1, followers=2000), User(id=2, name=User2, followers=29000), User(id=3, name=User3, followers=550)].
+2022-07-02 14:32:56.100  INFO 10004 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 14:32:56.100  INFO 10004 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 14:32:56.101  INFO 10004 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 14:32:56.141  INFO 10004 --- [http-nio-80-exec-1] c.e.r.controller.UserController          : GETTING USER ID 1.
+2022-07-02 14:33:08.554  INFO 10004 --- [http-nio-80-exec-8] c.e.r.controller.UserController          : GETTING USER ID 2.
